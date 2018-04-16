@@ -1,0 +1,31 @@
+{
+  "name": "bugfixes-endpoint-application-version",
+  "version": "0.0.2",
+  "description": "BugFixes Application Create Version Endpoint",
+  "main": "index.js",
+  "author": "keloran <keloran@bugfix.es>",
+  "license": "MIT",
+  "repository": "git@github.com:BugFixes/application-endpoint-version.git",
+  "scripts": {
+    "test": "yarn test:standard && yarn test:endpoint",
+    "test:standard": "standard src/index.js index.js",
+    "test:endpoint": "mocha test/index.js --exit",
+    "claudia:create": "claudia create --name application-version --region eu-west-2 --runtime nodejs8.10 --handler index.handler",
+    "claudia:test": "claudia test-lambda",
+    "claudia:deploy": "claudia update --runtime nodejs8.10 "
+  },
+  "dependencies": {
+    "bugfixes": "^1.6.2",
+    "bugfixes-account-logging": "^0.0.1",
+    "bugfixes-account-models": "^0.0.4",
+    "bugfixes-application-models": "^0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "claudia": "^3.4.1",
+    "dotenv": "^5.0.1",
+    "mocha": "^5.0.5",
+    "mockyeah": "^0.16.2",
+    "standard": "^11.0.1"
+  }
+}
