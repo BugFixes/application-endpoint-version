@@ -21,7 +21,7 @@
     "bugfixes-application-models": "^0.0.2"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
+    "chai": "^4.2.0",
     "claudia": "^3.4.1",
     "dotenv": "^5.0.1",
     "mocha": "^5.0.5",
