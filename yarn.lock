@@ -317,9 +317,9 @@ bugfixes-account-models@^0.0.4:
     request-promise "^4.2.2"
     uuid "^3.2.1"
 
-bugfixes-application-models@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/bugfixes-application-models/-/bugfixes-application-models-0.0.2.tgz#4c8f2980f0aa08b74b41a3a555b11ae0b06a2340"
+bugfixes-application-models@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/bugfixes-application-models/-/bugfixes-application-models-0.0.4.tgz#9b24410eba74a816db7a746ed42e713c39d40a48"
   dependencies:
     aws-sdk "^2.220.1"
     bugfixes "^1.5.0"
