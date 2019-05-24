@@ -327,9 +327,9 @@ bugfixes-application-models@^0.0.2:
     request-promise "^4.2.2"
     uuid "^3.2.1"
 
-bugfixes@^1.5.0, bugfixes@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/bugfixes/-/bugfixes-1.6.2.tgz#619300082c1dfdb67bef3f157cb8f9403473ac53"
+bugfixes@^1.5.0, bugfixes@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/bugfixes/-/bugfixes-1.7.0.tgz#92dbaa1bcc236f80b6da1831d6d40c0a89b2695a"
   dependencies:
     jsonwebtoken "^8.2.0"
     uuid "^3.2.1"
