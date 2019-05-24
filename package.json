@@ -15,7 +15,7 @@
     "claudia:deploy": "claudia update --runtime nodejs8.10 "
   },
   "dependencies": {
-    "bugfixes": "^1.6.2",
+    "bugfixes": "^1.7.0",
     "bugfixes-account-logging": "^0.0.1",
     "bugfixes-account-models": "^0.0.4",
     "bugfixes-application-models": "^0.0.2"
